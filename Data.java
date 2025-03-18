@@ -1,7 +1,11 @@
 public class Data {
-    public static final int MAX = /* value not shown */;
+    public static final int MAX = (int)(Math.random() * Integer.MAX_VALUE);
     private int[][] grid;
 
+    public Data (int rows, int columns)
+    {
+        grid = new int[rows][columns];
+    }
 
     /**
      * Fills all elements of grid with randomly generated
@@ -25,6 +29,17 @@ public class Data {
         /* to be implemented in part (b) */
     }
 
+    public String toString()
+    {
+        String s = "";
+        for(int[]row : grid)
+        {
+            for(int[col] : grid)
+            {
+                
+            }
+        }
+    }
 
     // There may be instance variables, constructors
     //and methods that are not shown.

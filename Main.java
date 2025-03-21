@@ -18,5 +18,13 @@ public class Main
         };
         d = new Data(grid);
         System.out.println(d.countIncreasingCols());
+
+        int[][] grid2 = 
+        {
+            {10, 540, 440, 440},
+            {220, 450, 440, 190}
+        };
+        d = new Data(grid2);
+        System.out.println(d.countIncreasingCols());
     }
 }
